@@ -11,4 +11,4 @@ print(response.status_code)
 print(response.json())
 jsondata = response.json()
 kurs = response.json()['conversion_rate'] 
-print(f"Bugungi kurs=1 AQSH dollar = {kurs} so'm")
+print(f"Bugungi kurs=1 AQSH dollar = {kurs} so'm") 
